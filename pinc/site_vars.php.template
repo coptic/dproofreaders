@@ -46,9 +46,9 @@ $wikihiero_url = '<<WIKIHIERO_URL>>';
 $archive_projects_dir = '<<ARCHIVE_PROJECTS_DIR>>';
 
 $forum_type = '<<FORUM_TYPE>>';
-$forums_phpbb_table_prefix = '<<PHPBB_TABLE_PREFIX>>';
-$forums_phpbb_dir = '<<PHPBB_DIR>>';
-$forums_phpbb_url = '<<PHPBB_URL>>';
+$forums_phpbb_table_prefix = 'phpBB3';
+$forums_phpbb_dir = 'phpBB3';
+$forums_phpbb_url = '../phpBB3';
 
 
 $general_forum_idx                = '<<FORUMS_GENERAL_IDX>>';
@@ -102,14 +102,14 @@ $php_cli_executable = '<<PHP_CLI_EXECUTABLE>>';
 
 // Note: Some UI features, such as the Page Browser, require the API.
 //       Disabling it will break these features.
-$api_enabled = <<API_ENABLED>>;
-$api_rate_limit = <<API_RATE_LIMIT>>;
-$api_rate_limit_requests_per_window = <<API_RATE_LIMIT_REQUESTS_PER_WINDOW>>;
-$api_rate_limit_seconds_in_window = <<API_RATE_LIMIT_SECONDS_IN_WINDOW>>;
+$api_enabled = '<<API_ENABLED>>';
+$api_rate_limit = '<<API_RATE_LIMIT>>';
+$api_rate_limit_requests_per_window = '<<API_RATE_LIMIT_REQUESTS_PER_WINDOW>>';
+$api_rate_limit_seconds_in_window = '<<API_RATE_LIMIT_SECONDS_IN_WINDOW>>';
 
 // -----------------------------------------------------------------------------
 
-$phpmailer_smtp_config = <<PHPMAILER_SMTP_CONFIG>>;
+$phpmailer_smtp_config = '<<PHPMAILER_SMTP_CONFIG>>';
 $no_reply_email_addr = '<<NO_REPLY_EMAIL_ADDR>>';
 $general_help_email_addr = '<<GENERAL_HELP_EMAIL_ADDR>>';
 $site_manager_email_addr = $general_help_email_addr;
@@ -122,13 +122,13 @@ $translation_coordinator_email_addr = '<<TRANSLATION_COORDINATOR_EMAIL_ADDR>>';
 
 // -----------------------------------------------------------------------------
 
-$testing = <<TESTING>>;
-$use_php_sessions = <<USE_PHP_SESSIONS>>;
+$testing = '<<TESTING>>';
+$use_php_sessions = '<<USE_PHP_SESSIONS>>';
 $cookie_encryption_key = '<<COOKIE_ENCRYPTION_KEY>>';
-$use_secure_cookies = <<USE_SECURE_COOKIES>>;
+$use_secure_cookies = '<<USE_SECURE_COOKIES>>';
 
-$auto_post_to_project_topic = <<AUTO_POST_TO_PROJECT_TOPIC>>;
-$ordinary_users_can_see_queue_settings = <<ORDINARY_USERS_CAN_SEE_QUEUE_SETTINGS>>;
+$auto_post_to_project_topic = '<<AUTO_POST_TO_PROJECT_TOPIC>>';
+$ordinary_users_can_see_queue_settings = '<<ORDINARY_USERS_CAN_SEE_QUEUE_SETTINGS>>';
 $external_catalog_locator = '<<EXTERNAL_CATALOG_LOCATOR>>';
 $charset = 'UTF-8';
-$default_project_char_suites = <<DEFAULT_CHAR_SUITES>>;
+$default_project_char_suites = '<<DEFAULT_CHAR_SUITES>>';

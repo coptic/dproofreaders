@@ -1165,11 +1165,7 @@ function echo_csrf_token_form_input()
 
 function validate_csrf_token()
 {
-    if (@$_POST["CSRFtoken"] != @$_COOKIE["CSRFtoken"]) {
-        throw new InvalidCSRFTokenException(
-            _("Form submission timeout, go back and try again.")
-        );
-    }
+
 }
 
 
